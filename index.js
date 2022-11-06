@@ -13,9 +13,10 @@ function serveHtml(res, fileName) {
 }
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/') {
-    serveHtml(res, 'index.html');
-  }
+  if (req.url === '/') serveHtml(res, 'index.html');
+  else if (req.url === '/contact') serveHtml(res, 'contact-me.html');
+  else if (req.url === '/about') serveHtml(res, 'about.html');
+  else serveHtml(res, '404.html');
 });
 
 server.listen(PORT, () => {
