@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/husky93/node-informational/issues"
   },
-  "homepage": "https://github.com/husky93/node-informational#readme"
+  "homepage": "https://github.com/husky93/node-informational#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
