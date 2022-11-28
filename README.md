@@ -1,6 +1,6 @@
 # node-informational
 
-A simple Node.js server that serves html files based on requested url.
+A simple Node.js / Express server that serves html files based on requested url.
 
 ## How to start
 
